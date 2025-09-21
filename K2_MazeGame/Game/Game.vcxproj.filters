@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="SlipFloor.cpp" />
+    <ClCompile Include="SlipWall.cpp" />
+    <ClCompile Include="GoalGhostObj.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Clear.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="AppFloor.cpp" />
+    <ClCompile Include="AppFloorGhostObj.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GameOverFloor.cpp" />
+    <ClCompile Include="WarpGhostObj.cpp" />
+    <ClCompile Include="NothingGhostObj.cpp" />
+    <ClCompile Include="AppRoachingWall.cpp" />
+    <ClCompile Include="AppRoachingGhostObj.cpp" />
+    <ClCompile Include="HintBox.cpp" />
+    <ClCompile Include="HintGhostObj.cpp" />
+    <ClCompile Include="GoalPedestal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="SlipFloor.h" />
+    <ClInclude Include="SlipWall.h" />
+    <ClInclude Include="GoalGhostObj.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Clear.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="AppFloor.h" />
+    <ClInclude Include="AppFloorGhostObj.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GameOverFloor.h" />
+    <ClInclude Include="WarpGhostObj.h" />
+    <ClInclude Include="NothingGhostObj.h" />
+    <ClInclude Include="AppRoachingWall.h" />
+    <ClInclude Include="AppRoachingGhostObj.h" />
+    <ClInclude Include="HintBox.h" />
+    <ClInclude Include="HintGhostObj.h" />
+    <ClInclude Include="GoalPedestal.h" />
+  </ItemGroup>
+</Project>
